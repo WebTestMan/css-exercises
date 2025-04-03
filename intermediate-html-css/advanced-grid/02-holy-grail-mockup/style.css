@@ -13,10 +13,13 @@
   font-family: Helvetica;
   font-weight: bold;
   color: white;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
 }
 
 .header {
   background-color: #393f4d;
+  grid-area: 1/2/1/1;
 }
 
 .menu ul,
